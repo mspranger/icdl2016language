@@ -3,6 +3,10 @@ Source code for the paper Michael Spranger and Katrien Beuls (2016) Referential 
 
 Requires python >=2.7, bokeh, numpy, scikit-learn, keras (for MLP)
 
+For the grounded data you need https://github.com/mspranger/data-qrio-objects
+
+To get started check general_multiclass_multilabel.py. Hyper-parameter grid optimization is in in optimize. The MLP is separately processed
+
 LICENSE
 -------
 Copyright (c) 2016, Michael Spranger (http://www.michael-spranger.com).
