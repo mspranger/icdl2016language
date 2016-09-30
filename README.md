@@ -1,9 +1,12 @@
 # icdl2016language
-Source code for the paper Michael Spranger and Katrien Beuls (2016) Referential Uncertainty and Word Learning in High-dimensional, Continuous Meaning Spaces. In Development and Learning and Epigenetic Robotics (ICDL-Epirob), 2016 Joint IEEE International Conferences on, 2016. IEEE.
+
+Source code accompanying the paper
+
+Michael Spranger and Katrien Beuls (2016) [Referential Uncertainty and Word Learning in High-dimensional, Continuous Meaning Spaces](https://www.dropbox.com/s/6dbwkjdg2u1e64n/referential-uncertainty-word.pdf). In Development and Learning and Epigenetic Robotics (ICDL-Epirob), 2016 Joint IEEE International Conferences on, 2016. IEEE.
 
 Requires python >=2.7, bokeh, numpy, scikit-learn, keras (for MLP)
 
-For the grounded data you need https://github.com/mspranger/data-qrio-objects next to this repository.
+For the grounded experiments you need https://github.com/mspranger/data-qrio-objects next to this repository.
 
 To get started please check general_multiclass_multilabel.py. Hyper-parameter grid optimization is in in general_multiclass_multilabel_optimize.py. The MLP training and testing is in general_multiclass_multilabel_mlp3.py. Functions for description games are in description_game.py. robot_data.py handles data loading and pre-processing.
 
